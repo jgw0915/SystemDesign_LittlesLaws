@@ -24,6 +24,12 @@ INCREASE_THREAD_COUNT_MAGNITUDE = 1.4
 # 當高 CPU 使用率且等待任務少時，最佳執行緒數的倍率
 DECREASE_THREAD_COUNT_MAGNITUDE = 0.6
 
+# 最小執行緒數
+MIN_WORKER_COUNT = 3
+
+# 最大執行緒數
+MAX_WORKER_COUNT = 20
+
 # 提高執行緒數的優先值基準
 WAIT_TIME_THRESHOLD = 300
 
